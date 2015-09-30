@@ -3,13 +3,13 @@ abstract: unknown
 author:
   - 'Pef Secure'
 build_requires: {}
-dynamic_config: 0
+dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.143240'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
-name: SQL-Struct
+name: DBIx-Struct
 no_index:
   directory:
     - t
@@ -17,4 +17,4 @@ no_index:
 resources:
   bugtracker: https://github.com/pef-secure/dbix-struct/issues
   repository: https://github.com/pef-secure/dbix-struct.git
-version: '0.03'
+version: '0.04'
