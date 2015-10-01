@@ -4,9 +4,9 @@
       "Pef Secure"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.143240",
    "license" : [
-      "unknown"
+      "artistic_2"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -19,6 +19,31 @@
          "inc"
       ]
    },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DBIx::Connector" : "0.52",
+            "Digest::MD5" : "0",
+            "SQL::Abstract" : "0",
+            "perl" : "5.14"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
@@ -30,5 +55,5 @@
          "web" : "https://github.com/pef-secure/dbix-struct"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
