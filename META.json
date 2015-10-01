@@ -35,7 +35,7 @@
             "DBIx::Connector" : "0.52",
             "Digest::MD5" : "0",
             "SQL::Abstract" : "0",
-            "perl" : "5.14"
+            "perl" : "5.014000"
          }
       },
       "test" : {
@@ -55,5 +55,5 @@
          "web" : "https://github.com/pef-secure/dbix-struct"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }

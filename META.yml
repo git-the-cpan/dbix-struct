@@ -22,8 +22,8 @@ requires:
   DBIx::Connector: '0.52'
   Digest::MD5: '0'
   SQL::Abstract: '0'
-  perl: '5.14'
+  perl: '5.014000'
 resources:
   bugtracker: https://github.com/pef-secure/dbix-struct/issues
   repository: https://github.com/pef-secure/dbix-struct.git
-version: '0.05'
+version: '0.06'
